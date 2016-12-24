@@ -1,0 +1,13 @@
+# Version 1.0.0
+Very bare bones at the moment, so far draw methods are only included for
+triangles and boxes, the animation is set in stone as what it is for the
+moment as well. The animations are based on positioning the cursor and
+printing a character to the screen, then returning the cursor to the initial
+position of the object (top-left) and rewriting the character in black, so
+needless to say this will only work if your background is black, something I
+intend to fix eventually. This was a project for a class taught in C++, but I
+want to expand it so it can be used to make simple video games on the
+terminal. The entire thing is based off of ANSI codes, so it is not compatible
+with a windows machine, however it wouldn't be a challenge to make this
+happen, as I based everything off of the <windows.h> library, some of the code
+would merely have to be rewritten.
